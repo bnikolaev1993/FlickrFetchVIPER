@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11B7C8170057E72EED813055 /* Pods_viperPlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEE7D47B2E0B52F36643E24 /* Pods_viperPlaygroundUITests.framework */; };
+		52097FFF5227440525080DB2 /* Pods_viperPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBC4447C55417F60966191E /* Pods_viperPlayground.framework */; };
+		6F4BE70E3CC62DC1F85DBB7E /* Pods_viperPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA475715AFFE16018111BE /* Pods_viperPlaygroundTests.framework */; };
+		CD400D412181CB0D00709765 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD400D402181CB0D00709765 /* Const.swift */; };
 		CDFAE25E21808F890050A4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE25D21808F890050A4AB /* AppDelegate.swift */; };
-		CDFAE26021808F890050A4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE25F21808F890050A4AB /* ViewController.swift */; };
 		CDFAE26321808F890050A4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFAE26121808F890050A4AB /* Main.storyboard */; };
 		CDFAE26521808F8B0050A4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFAE26421808F8B0050A4AB /* Assets.xcassets */; };
 		CDFAE26821808F8B0050A4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFAE26621808F8B0050A4AB /* LaunchScreen.storyboard */; };
 		CDFAE27321808F8B0050A4AB /* viperPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE27221808F8B0050A4AB /* viperPlaygroundTests.swift */; };
 		CDFAE27E21808F8B0050A4AB /* viperPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE27D21808F8B0050A4AB /* viperPlaygroundUITests.swift */; };
+		CDFAE28C21809F320050A4AB /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE28B21809F320050A4AB /* PhotoViewController.swift */; };
+		CDFAE28E21809F3C0050A4AB /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE28D21809F3C0050A4AB /* PhotoDetailViewController.swift */; };
+		CDFAE2942180A2080050A4AB /* PhotoSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2932180A2080050A4AB /* PhotoSearchInteractor.swift */; };
+		CDFAE2962180A2170050A4AB /* PhotoDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2952180A2170050A4AB /* PhotoDetailInteractor.swift */; };
+		CDFAE2982180A23B0050A4AB /* PhotoSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2972180A23B0050A4AB /* PhotoSearchPresenter.swift */; };
+		CDFAE29A2180A2480050A4AB /* PhotoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2992180A2480050A4AB /* PhotoDetailPresenter.swift */; };
+		CDFAE29D2180A2A60050A4AB /* FlickrPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE29C2180A2A60050A4AB /* FlickrPhotoModel.swift */; };
+		CDFAE2A02180A2EC0050A4AB /* FlickrDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE29F2180A2EC0050A4AB /* FlickrDataManager.swift */; };
+		CDFAE2A22180A32E0050A4AB /* PhotoSearchRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2A12180A32E0050A4AB /* PhotoSearchRouting.swift */; };
+		CDFAE2A42180A33A0050A4AB /* PhotoSearchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2A32180A33A0050A4AB /* PhotoSearchAssembly.swift */; };
+		CDFAE2A62180A34E0050A4AB /* PhotoDetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2A52180A34E0050A4AB /* PhotoDetailAssembly.swift */; };
+		CDFAE2A82180C55C0050A4AB /* PhotoItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2A72180C55C0050A4AB /* PhotoItemCollectionViewCell.swift */; };
+		CDFAE2AA2180C56E0050A4AB /* PhotoLoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE2A92180C56E0050A4AB /* PhotoLoadingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D3069025112D59D697A96CA /* Pods-viperPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viperPlayground/Pods-viperPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		22C94875300C2A1D6F869218 /* Pods-viperPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperPlayground/Pods-viperPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		2DBC4447C55417F60966191E /* Pods_viperPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viperPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EA475715AFFE16018111BE /* Pods_viperPlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viperPlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE4C9CB728029238A3BF1AF /* Pods-viperPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperPlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperPlaygroundTests/Pods-viperPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AEE7D47B2E0B52F36643E24 /* Pods_viperPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viperPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD400D402181CB0D00709765 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CDBE0B19D190BE312FA8DEA5 /* Pods-viperPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperPlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viperPlaygroundUITests/Pods-viperPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDFAE25A21808F890050A4AB /* viperPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFAE25D21808F890050A4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDFAE25F21808F890050A4AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDFAE26221808F890050A4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFAE26421808F8B0050A4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFAE26721808F8B0050A4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,21 @@
 		CDFAE27921808F8B0050A4AB /* viperPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFAE27D21808F8B0050A4AB /* viperPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperPlaygroundUITests.swift; sourceTree = "<group>"; };
 		CDFAE27F21808F8B0050A4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFAE28B21809F320050A4AB /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		CDFAE28D21809F3C0050A4AB /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		CDFAE2932180A2080050A4AB /* PhotoSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchInteractor.swift; sourceTree = "<group>"; };
+		CDFAE2952180A2170050A4AB /* PhotoDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailInteractor.swift; sourceTree = "<group>"; };
+		CDFAE2972180A23B0050A4AB /* PhotoSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchPresenter.swift; sourceTree = "<group>"; };
+		CDFAE2992180A2480050A4AB /* PhotoDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailPresenter.swift; sourceTree = "<group>"; };
+		CDFAE29C2180A2A60050A4AB /* FlickrPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoModel.swift; sourceTree = "<group>"; };
+		CDFAE29F2180A2EC0050A4AB /* FlickrDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrDataManager.swift; sourceTree = "<group>"; };
+		CDFAE2A12180A32E0050A4AB /* PhotoSearchRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchRouting.swift; sourceTree = "<group>"; };
+		CDFAE2A32180A33A0050A4AB /* PhotoSearchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchAssembly.swift; sourceTree = "<group>"; };
+		CDFAE2A52180A34E0050A4AB /* PhotoDetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailAssembly.swift; sourceTree = "<group>"; };
+		CDFAE2A72180C55C0050A4AB /* PhotoItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDFAE2A92180C56E0050A4AB /* PhotoLoadingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLoadingCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5B6F44D3802C64430C7DED2 /* Pods-viperPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperPlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperPlaygroundUITests/Pods-viperPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2B0E2332FB0D5929EC3FFCE /* Pods-viperPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperPlaygroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viperPlaygroundTests/Pods-viperPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52097FFF5227440525080DB2 /* Pods_viperPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4BE70E3CC62DC1F85DBB7E /* Pods_viperPlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B7C8170057E72EED813055 /* Pods_viperPlaygroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E53F686510BE3CB23E0022E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC4447C55417F60966191E /* Pods_viperPlayground.framework */,
+				61EA475715AFFE16018111BE /* Pods_viperPlaygroundTests.framework */,
+				8AEE7D47B2E0B52F36643E24 /* Pods_viperPlaygroundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AFBF7024A89E8492C937BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D3069025112D59D697A96CA /* Pods-viperPlayground.debug.xcconfig */,
+				22C94875300C2A1D6F869218 /* Pods-viperPlayground.release.xcconfig */,
+				F2B0E2332FB0D5929EC3FFCE /* Pods-viperPlaygroundTests.debug.xcconfig */,
+				6DE4C9CB728029238A3BF1AF /* Pods-viperPlaygroundTests.release.xcconfig */,
+				CDBE0B19D190BE312FA8DEA5 /* Pods-viperPlaygroundUITests.debug.xcconfig */,
+				D5B6F44D3802C64430C7DED2 /* Pods-viperPlaygroundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CDFAE25121808F890050A4AB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				CDFAE27121808F8B0050A4AB /* viperPlaygroundTests */,
 				CDFAE27C21808F8B0050A4AB /* viperPlaygroundUITests */,
 				CDFAE25B21808F890050A4AB /* Products */,
+				5AFBF7024A89E8492C937BAB /* Pods */,
+				4E53F686510BE3CB23E0022E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +163,16 @@
 		CDFAE25C21808F890050A4AB /* viperPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				CDFAE29E2180A2DB0050A4AB /* Services */,
+				CDFAE29B2180A2930050A4AB /* Models */,
+				CDFAE28F2180A1850050A4AB /* PhotoSearch */,
+				CDFAE2902180A1930050A4AB /* PhotoDetail */,
 				CDFAE25D21808F890050A4AB /* AppDelegate.swift */,
-				CDFAE25F21808F890050A4AB /* ViewController.swift */,
 				CDFAE26121808F890050A4AB /* Main.storyboard */,
 				CDFAE26421808F8B0050A4AB /* Assets.xcassets */,
 				CDFAE26621808F8B0050A4AB /* LaunchScreen.storyboard */,
 				CDFAE26921808F8B0050A4AB /* Info.plist */,
+				CD400D402181CB0D00709765 /* Const.swift */,
 			);
 			path = viperPlayground;
 			sourceTree = "<group>";
@@ -125,6 +195,71 @@
 			path = viperPlaygroundUITests;
 			sourceTree = "<group>";
 		};
+		CDFAE28F2180A1850050A4AB /* PhotoSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE2922180A1A50050A4AB /* Modules */,
+			);
+			path = PhotoSearch;
+			sourceTree = "<group>";
+		};
+		CDFAE2902180A1930050A4AB /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE2912180A19C0050A4AB /* Modules */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
+		CDFAE2912180A19C0050A4AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE28D21809F3C0050A4AB /* PhotoDetailViewController.swift */,
+				CDFAE2992180A2480050A4AB /* PhotoDetailPresenter.swift */,
+				CDFAE2952180A2170050A4AB /* PhotoDetailInteractor.swift */,
+				CDFAE2A52180A34E0050A4AB /* PhotoDetailAssembly.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CDFAE2922180A1A50050A4AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE2AB2180C5740050A4AB /* Cell */,
+				CDFAE28B21809F320050A4AB /* PhotoViewController.swift */,
+				CDFAE2972180A23B0050A4AB /* PhotoSearchPresenter.swift */,
+				CDFAE2932180A2080050A4AB /* PhotoSearchInteractor.swift */,
+				CDFAE2A12180A32E0050A4AB /* PhotoSearchRouting.swift */,
+				CDFAE2A32180A33A0050A4AB /* PhotoSearchAssembly.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CDFAE29B2180A2930050A4AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE29C2180A2A60050A4AB /* FlickrPhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDFAE29E2180A2DB0050A4AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE29F2180A2EC0050A4AB /* FlickrDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CDFAE2AB2180C5740050A4AB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAE2A72180C55C0050A4AB /* PhotoItemCollectionViewCell.swift */,
+				CDFAE2A92180C56E0050A4AB /* PhotoLoadingCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDFAE28221808F8B0050A4AB /* Build configuration list for PBXNativeTarget "viperPlayground" */;
 			buildPhases = (
+				AA28B640B271411E3D9674E8 /* [CP] Check Pods Manifest.lock */,
 				CDFAE25621808F890050A4AB /* Sources */,
 				CDFAE25721808F890050A4AB /* Frameworks */,
 				CDFAE25821808F890050A4AB /* Resources */,
+				A3BFC827684B515AA9EBDAD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDFAE28521808F8B0050A4AB /* Build configuration list for PBXNativeTarget "viperPlaygroundTests" */;
 			buildPhases = (
+				B8A547025B35AC5E81C8B377 /* [CP] Check Pods Manifest.lock */,
 				CDFAE26A21808F8B0050A4AB /* Sources */,
 				CDFAE26B21808F8B0050A4AB /* Frameworks */,
 				CDFAE26C21808F8B0050A4AB /* Resources */,
@@ -167,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDFAE28821808F8B0050A4AB /* Build configuration list for PBXNativeTarget "viperPlaygroundUITests" */;
 			buildPhases = (
+				90ECC23B251EB695C279419B /* [CP] Check Pods Manifest.lock */,
 				CDFAE27521808F8B0050A4AB /* Sources */,
 				CDFAE27621808F8B0050A4AB /* Frameworks */,
 				CDFAE27721808F8B0050A4AB /* Resources */,
@@ -251,13 +390,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90ECC23B251EB695C279419B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-viperPlaygroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BFC827684B515AA9EBDAD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-viperPlayground/Pods-viperPlayground-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viperPlayground/Pods-viperPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA28B640B271411E3D9674E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-viperPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A547025B35AC5E81C8B377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-viperPlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDFAE25621808F890050A4AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFAE26021808F890050A4AB /* ViewController.swift in Sources */,
+				CDFAE2A42180A33A0050A4AB /* PhotoSearchAssembly.swift in Sources */,
+				CDFAE28E21809F3C0050A4AB /* PhotoDetailViewController.swift in Sources */,
+				CDFAE2A22180A32E0050A4AB /* PhotoSearchRouting.swift in Sources */,
+				CDFAE2A82180C55C0050A4AB /* PhotoItemCollectionViewCell.swift in Sources */,
+				CDFAE2962180A2170050A4AB /* PhotoDetailInteractor.swift in Sources */,
+				CDFAE2942180A2080050A4AB /* PhotoSearchInteractor.swift in Sources */,
+				CDFAE2AA2180C56E0050A4AB /* PhotoLoadingCollectionViewCell.swift in Sources */,
+				CDFAE29A2180A2480050A4AB /* PhotoDetailPresenter.swift in Sources */,
+				CDFAE2982180A23B0050A4AB /* PhotoSearchPresenter.swift in Sources */,
+				CDFAE2A02180A2EC0050A4AB /* FlickrDataManager.swift in Sources */,
 				CDFAE25E21808F890050A4AB /* AppDelegate.swift in Sources */,
+				CDFAE2A62180A34E0050A4AB /* PhotoDetailAssembly.swift in Sources */,
+				CDFAE28C21809F320050A4AB /* PhotoViewController.swift in Sources */,
+				CDFAE29D2180A2A60050A4AB /* FlickrPhotoModel.swift in Sources */,
+				CD400D412181CB0D00709765 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +655,7 @@
 		};
 		CDFAE28321808F8B0050A4AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3069025112D59D697A96CA /* Pods-viperPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +674,7 @@
 		};
 		CDFAE28421808F8B0050A4AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C94875300C2A1D6F869218 /* Pods-viperPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +693,7 @@
 		};
 		CDFAE28621808F8B0050A4AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B0E2332FB0D5929EC3FFCE /* Pods-viperPlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +715,7 @@
 		};
 		CDFAE28721808F8B0050A4AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE4C9CB728029238A3BF1AF /* Pods-viperPlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +737,7 @@
 		};
 		CDFAE28921808F8B0050A4AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBE0B19D190BE312FA8DEA5 /* Pods-viperPlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +758,7 @@
 		};
 		CDFAE28A21808F8B0050A4AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B6F44D3802C64430C7DED2 /* Pods-viperPlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
